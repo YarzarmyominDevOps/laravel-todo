@@ -14,5 +14,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.M2AIR_GITHUB_CICD }}
-          script: "cd /home/ubuntu/devops && .deploy-github.sh"
+          script: "cd /home/ubuntu/devops && ./deploy-github.sh"
     
